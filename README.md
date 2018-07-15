@@ -8,35 +8,35 @@ A collection of utils written by Jusanov.
 If you're using Maven, add the following to your pom.xml
 
 ```xml
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
-    
-    <dependencies>
-    	<dependency>
-            <groupId>net.jusanov</groupId>
-            <artifactId>jusanovsutils</artifactId>
-            <version>-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>net.jusanov</groupId>
+        <artifactId>jusanovsutils</artifactId>
+        <version>-SNAPSHOT</version>
+    </dependency>
+</dependencies>
 ```
 
 Or, if you're using Gradle, add the following to your build.gradle
 
 ```gradle
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
     
-    dependencies {
-	        implementation 'net.jusanov:jusanovsutils:-SNAPSHOT'
-	}
+dependencies {
+    implementation 'net.jusanov:jusanovsutils:-SNAPSHOT'
+}
 ```
 
 For the latest version, use -SNAPSHOT as the version.
