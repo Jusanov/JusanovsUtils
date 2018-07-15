@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.jusanov</groupId>
+  <artifactId>utils</artifactId>
+  <version>1.0.0</version>
+  <name>Jusanov's Utils</name>
+  <description>A collection of utils written by Jusanov.</description>
+  <url>https://github.com/Jusanov/JusanovsUtils</url>
+  <developers>
+  	<developer>
+  	  <id>jusanov</id>
+  	  <name>Justin</name>
+  	  <url>http://jusanov.net/</url>
+  	  <timezone>America/Los_Angeles</timezone>
+  	</developer>
+  </developers>
+  <build>
+  	<defaultGoal>clean package</defaultGoal>
+  	<directory>${basedir}/target/bin</directory>
+  </build>
+</project>
