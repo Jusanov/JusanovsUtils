@@ -1,6 +1,5 @@
 package net.jusanov.utils.io;
 
-import java.util.List;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -12,10 +11,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-import java.nio.file.FileSystems;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * 
@@ -85,8 +83,7 @@ public class CSVManager {
 		    }
 		    
 		    bufferedWriter.close();
-		    Files.copy(FileSystems.getDefault().getPath(temp.getPath()), new FileOutputStream(dest));
-		    Files.deleteIfExists(FileSystems.getDefault().getPath(temp.getPath()));
+		    FileManager.moveFile(temp, dest);
 		    
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
