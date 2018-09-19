@@ -1,4 +1,4 @@
-package net.jusanov.utils.io;
+package com.justinschaaf.utils.io;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -10,7 +10,7 @@ import java.nio.file.Files;
  * 
  * The primary class for managing files
  * 
- * @author Justin
+ * @author Justin Schaaf
  * @since 1.0.0
  *
  */

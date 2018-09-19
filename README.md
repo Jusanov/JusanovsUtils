@@ -1,7 +1,7 @@
-# JusanovsUtils
-[![](https://jitpack.io/v/net.jusanov/jusanovsutils.svg?style=flat-square)](https://jitpack.io/#net.jusanov/jusanovsutils)
+# JustinsJavaUtils
+[![](https://jitpack.io/v/com.justinschaaf/justinsjavautils.svg?style=flat-square)](https://jitpack.io/#com.justinschaaf/justinsjavautils)
 
-A collection of utils written by Jusanov.
+A collection of utils written by Justin.
 
 ### Usage
 
@@ -17,8 +17,8 @@ If you're using Maven, add the following to your pom.xml
 
 <dependencies>
     <dependency>
-        <groupId>net.jusanov</groupId>
-        <artifactId>jusanovsutils</artifactId>
+        <groupId>com.justinschaaf</groupId>
+        <artifactId>justinsjavautils</artifactId>
         <version>-SNAPSHOT</version>
     </dependency>
 </dependencies>
@@ -35,7 +35,7 @@ allprojects {
 }
     
 dependencies {
-    implementation 'net.jusanov:jusanovsutils:-SNAPSHOT'
+    implementation 'com.justinschaaf:justinsjavautils:-SNAPSHOT'
 }
 ```
 

@@ -1,4 +1,4 @@
-package net.jusanov.utils.io;
+package com.justinschaaf.utils.io;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -19,7 +19,7 @@ import java.util.List;
  * 
  * The primary class for managing CSV (Comma Separated Values) data
  * 
- * @author Justin
+ * @author Justin Schaaf
  * @since 1.0.0
  *
  */
