@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.justinschaaf</groupId>
-  <artifactId>utils</artifactId>
+  <artifactId>yaosja</artifactId>
   <version>1.0.0</version>
-  <name>Justin's Java Utils</name>
-  <description>A collection of utils written by Justin.</description>
+  <name>YAOSJA</name>
+  <description>Yet Another Open Source Java Api</description>
   <url>justinschaaf.com</url>
   <developers>
   	<developer>
