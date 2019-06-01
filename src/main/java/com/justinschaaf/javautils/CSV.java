@@ -1,4 +1,4 @@
-package com.justinschaaf.yaosja;
+package com.justinschaaf.javautils;
 
 import java.io.*;
 import java.util.ArrayList;

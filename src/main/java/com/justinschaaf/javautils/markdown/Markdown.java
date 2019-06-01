@@ -1,6 +1,6 @@
-package com.justinschaaf.yaosja.markdown;
+package com.justinschaaf.javautils.markdown;
 
-import com.justinschaaf.yaosja.markdown.objects.MarkdownObject;
+import com.justinschaaf.javautils.markdown.objects.MarkdownObject;
 
 import java.util.ArrayList;
 

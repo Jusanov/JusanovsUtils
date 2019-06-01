@@ -1,4 +1,4 @@
-package com.justinschaaf.yaosja;
+package com.justinschaaf.javautils;
 
 import java.io.File;
 import java.io.FileOutputStream;

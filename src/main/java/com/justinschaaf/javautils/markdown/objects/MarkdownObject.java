@@ -1,4 +1,4 @@
-package com.justinschaaf.yaosja.markdown.objects;
+package com.justinschaaf.javautils.markdown.objects;
 
 public abstract class MarkdownObject {
 

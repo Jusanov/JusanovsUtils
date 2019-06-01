@@ -1,9 +1,9 @@
-package com.justinschaaf.yaosja.markdown;
+package com.justinschaaf.javautils.markdown;
 
-import com.justinschaaf.yaosja.markdown.objects.MDHeading;
-import com.justinschaaf.yaosja.markdown.objects.MDHorizontalRule;
-import com.justinschaaf.yaosja.markdown.objects.MDParagraph;
-import com.justinschaaf.yaosja.markdown.objects.MarkdownObject;
+import com.justinschaaf.javautils.markdown.objects.MDHeading;
+import com.justinschaaf.javautils.markdown.objects.MDHorizontalRule;
+import com.justinschaaf.javautils.markdown.objects.MDParagraph;
+import com.justinschaaf.javautils.markdown.objects.MarkdownObject;
 
 import java.util.ArrayList;
 
